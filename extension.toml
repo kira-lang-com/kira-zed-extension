@@ -2,9 +2,9 @@ id = "kira"
 name = "Kira"
 version = "0.1.0"
 schema_version = 1
-authors = ["Codex"]
+authors = ["Kira"]
 description = "Syntax highlighting support for Kira."
-repository = "file:///Users/priamc/Coding/newlang-programming-language/kira-zed-extension"
+repository = "https://github.com/kira-lang-com/kira-zed-extension"
 languages = ["languages/kira"]
 themes = []
 icon_themes = []
@@ -15,5 +15,5 @@ kind = "Rust"
 version = "0.7.0"
 
 [grammars.kira]
-repository = "file:///Users/priamc/Coding/kira-tree-sitter-repo"
-rev = "8adac2c5ea40fbdddc6417a9c62350e83e121868"
+repository = "https://github.com/kira-lang-com/kira-tree-sitter"
+rev = "9c7db31a7ace8469a691e75d32a1c2ee79da3505"
