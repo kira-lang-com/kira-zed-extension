@@ -1,0 +1,19 @@
+id = "kira"
+name = "Kira"
+version = "0.1.0"
+schema_version = 1
+authors = ["Codex"]
+description = "Syntax highlighting support for Kira."
+repository = "file:///Users/priamc/Coding/newlang-programming-language/kira-zed-extension"
+languages = ["languages/kira"]
+themes = []
+icon_themes = []
+capabilities = []
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[grammars.kira]
+repository = "file:///Users/priamc/Coding/kira-tree-sitter-repo"
+rev = "8adac2c5ea40fbdddc6417a9c62350e83e121868"
